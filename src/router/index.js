@@ -17,12 +17,11 @@ const routes = [
     component: Chat,
     props: true,
     beforeEnter: (to, from, next) => {
-      if(to.params.userName){
+      if (to.params.userName) {
         next();
       } else {
-        next({name: 'Home'});
+        next({ name: "Home" });
       }
-
     }
   },
   {

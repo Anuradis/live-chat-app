@@ -27,14 +27,15 @@ export default {
   },
   methods: {
     logIn() {
-      if (this.userName) { 
-        this.$router.push({ name: 'Chat', params: {userName: this.userName}})
-         console.log(this.userName);
-         this.feedback = null;
+      if (this.userName) {
+        this.$router.push({
+          name: "Chat",
+          params: { userName: this.userName }
+        });
+        this.feedback = null;
       } else {
         this.feedback = "You must enter the name";
       }
-     
     }
   },
   props: {
