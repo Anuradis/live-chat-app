@@ -1,24 +1,3 @@
-# chat-app-real-db
+Live Chat App based on Firebase RealTime updates  
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Techstack: HTML5, CSS3, JavaScript, Vue.js, Firebase Cloud Services, Firebase Hosting/CLI, Materialize, NPM, Moment, GIT.
